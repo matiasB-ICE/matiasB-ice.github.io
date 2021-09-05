@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pruebas de js</title>
+</head>
+<body>
+    <h1> hola mundo </h1>
+    <script>
+        // var ambito global
+        var holaa = "var son globales";
+        let hello = "let es para bloques de codigo"
+        console.log(holaa);
+        console.log(hello);
+        console.log(window);
+        console.log(window.holaa);
+        console.log(window.hello);
+        //comentario de linea
+        /* comentario de dos o mas
+        lineas */
+         var musica = "rock";
+         console.log("variable Musica antes del bloque",musica);
+         var musica ="pop";
+         {
+             console.log("variable Musica dentro del bloque del bloque",musica);
+         }
+             console.log("variable Musica despues del  bloque",musica);
+
+
+        
+    </script>
+</body>
+</html>
